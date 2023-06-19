@@ -1,0 +1,53 @@
+/* section */
+.How-to {
+    background-color: rgb(244, 244, 244);
+}
+
+
+.howto-container {
+    display: flex;
+justify-content: center;
+gap:5%;
+align-items: center;
+}
+/* these are containers */
+.iphone-img {
+        width: 20%;
+    
+}
+.steps-container {
+   display     : flex;
+flex-direction : column;
+justify-content: center;
+align-items    : center;
+
+}
+
+.step-container{
+    height        : 25%;
+width             : 100%;
+display           : flex;
+align-items       : center;
+/* gap :5%; */
+margin-bottom: 1rem;
+justify-content: space-between;
+}
+.step-val {
+    color: #f63854;
+    height: 4rem;
+    width: 4rem;
+    border-color: #f63854;
+    text-align: center;
+    padding-top: 0.7rem;
+    border-radius: 50%;
+    border-style: solid;
+    font-size: 180%;    
+}
+.howto-para {
+
+width:calc( 100% - 5rem)
+
+    /* margin-top: 1.5rem; */
+
+}
+
